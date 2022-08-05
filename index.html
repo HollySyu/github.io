@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <html lang="ja"></html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XgでY円 割合分かるプログラム JS</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <div class="main">
+
+      <div class="first">
+        <p class="title">1.<input class="name"></p>
+        <div class="data">
+          <label><a class="price">値段：<input type="number" min="0" class="price-number" id="price-number-first" style="text-align: right">円</a></label>
+          <label>
+            <a class="amount">量：<input type="number" min="0" class="amount-number" id="amount-number-first" style="text-align: right"></a>
+            <select id="unit-first" class="unit" size="1" >
+              <option value="g">g</option>
+              <option value="kg">kg</option>
+            </select>
+          </label>
+          <button class="calculation" type="button" id="button-first">計算</button>
+          <br>
+          <label><a class="result">1g当たり：<input disabled class="result-number" id="result-number-first" style="text-align: right">円</a></label>
+          <input disabled class="error-list" id="error-first">
+        </div>
+      </div>
+
+      <div class="second">
+        <p class="title">2.<input class="name"></p>
+        <div class="data">
+          <label><a class="price">値段：<input type="number" min="0" class="price-number" id="price-number-second" style="text-align: right">円</a></label>
+          <label>
+            <a class="amount">量：<input type="number" min="0" class="amount-number" id="amount-number-second" style="text-align: right"></a>
+            <select id="unit-second" class="unit" size="1" >
+              <option value="g">g</option>
+              <option value="kg">kg</option>
+            </select>
+          </label>
+          <button class="calculation" type="button" id="button-second">計算</button>
+          <br>
+          <label><a class="result">1g当たり：<input disabled class="result-number" id="result-number-second" style="text-align: right">円</a></label>
+          <input disabled class="error-list" id="error-second">
+        </div>
+      </div>
+
+      <div class="third">
+        <p class="title">3.<input class="name"></p>
+        <div class="data">
+          <label><a class="price">値段：<input type="number" min="0" class="price-number" id="price-number-third" style="text-align: right">円</a></label>
+          <label>
+            <a class="amount">量：<input type="number" min="0" class="amount-number" id="amount-number-third" style="text-align: right"></a>
+            <select id="unit-third" class="unit" size="1" >
+              <option value="g">g</option>
+              <option value="kg">kg</option>
+            </select>
+          </label>
+          <button class="calculation" type="button" id="button-third">計算</button>
+          <br>
+          <label><a class="result">1g当たり：<input disabled class="result-number" id="result-number-third" style="text-align: right">円</a></label>
+          <input disabled class="error-list" id="error-third">
+        </div>
+      </div>
+
+    </div>
+    
+  </body>
+</html>
